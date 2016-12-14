@@ -1,0 +1,109 @@
+[Root]
+Most Recent Package=Standard Setup
+
+[Package|Standard Setup|NTStream Installation]
+Icon1=NTStream.exe
+Title1=NTStream Installation
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Apps\NT Stream\Package
+
+[Package|Standard Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup|Files Found]
+
+[Package|Standard Setup|Files Released]
+
+[Package|Standard Setup|Missing Dependency Information]
+
+[Package|Standard Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup|Files Added]
+D:\Apps\NT Stream\ReadMe.pdf=
+
+[Package|Standard Setup|Files Removed]
+
+[Package|Standard Setup|Files In Project]
+D:\Apps\NT Stream\NTStream.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Apps\NT Stream\ReadMe.pdf=Yes
+
+[Package|Standard Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup|Install Locations]
+D:\Apps\NT Stream\NTStream.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Apps\NT Stream\ReadMe.pdf=$(AppPath)
+
+[Package|Standard Setup|Configure Shared Files]
+Applicable=Yes
+D:\Apps\NT Stream\NTStream.exe=No
+D:\Apps\NT Stream\ReadMe.pdf=No
+
+[Package|Standard Setup|Distribution]
+Type=single
+Size=
+Title=NTStream
+
+[Package|Standard Setup|IconGroups]
+Group0=NTStream
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup|NTStream]
+Icon1=NTStream.exe
+Title1=NTStream
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup|Package]
+PackageFolder=D:\Apps\NT Stream\Package
+ProjectFolder=D:\Apps\NT Stream
+ServerSideCab=
+File1=D:\Apps\NT Stream\Package\setup.exe
+File2=D:\Apps\NT Stream\Package\Setup.Lst
+File3=D:\Apps\NT Stream\Package\NTStream.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
